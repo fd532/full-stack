@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "egg": "^2.29.1",
+    "egg-bin": "^4.15.0",
+    "egg-sequelize": "^6.0.0",
+    "mysql2": "^2.2.5"
+  },
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "mocha": "^6.2.3"
+  },
+  "scripts": {
+    "test": "mocha",
+    "dev": "egg-bin dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
